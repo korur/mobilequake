@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582140485174.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "91B468E7",
+    "lastKnownWriteTime" : 1582102991,
+    "last_content_update" : 1582102991,
+    "path" : "~/workingdirectory/CoronaOutbreak/firstshinymobileapp/firstshinymobileapp/quakes_datawrangling.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "52,6",
+        "scrollLine" : "38"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
