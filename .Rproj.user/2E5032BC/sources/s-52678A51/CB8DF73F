@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582138494050.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CB8DF73F",
+    "lastKnownWriteTime" : 1582125282,
+    "last_content_update" : 1582125282,
+    "path" : "~/workingdirectory/CoronaOutbreak/mobilequake/dev/run_dev.R",
+    "project_path" : "dev/run_dev.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

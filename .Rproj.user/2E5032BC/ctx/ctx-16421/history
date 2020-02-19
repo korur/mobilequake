@@ -1,0 +1,354 @@
+golem::set_golem_options()
+usethis::use_mit_license( name = "Golem User" )
+usethis::use_readme_rmd( open = FALSE )
+usethis::use_news_md( open = FALSE )
+golem::use_recommended_tests()
+golem::use_recommended_deps()
+getwd()
+rstudioapi::navigateToFile( "dev/02_dev.R" )
+?use_package()
+remotes::install_github("JohnCoene/shinyscroll")
+usethis::use_package( "shiny" )
+usethis::use_package( "shinyMobile" )
+usethis::use_package( "dplyr" )
+usethis::use_package( "leaflet" )
+use_dev_package("shinyMobile")
+usethis::use_dev_package("shinyMobile")
+usethis::use_dev_package("echarts4r")
+usethis::use_dev_package("shinyscroll")
+usethis::use_dev_package("waiter")
+usethis::use_dev_package("sever")
+library(waiter)
+use_dev_package("waiter")
+usethis::use_package( "witer" )
+usethis::use_package( "waiter" )
+usethis::use_package( "magrittr" )
+usethis::use_package( "countup" )
+usethis::use_package( "htmlwidgets" )
+usethis::use_package( "sever" )
+?NS()
+library(leaflet.extras)
+usethis::use_package( "leaflet.extras" )
+golem::fill_desc(
+pkg_name = "mobilequake", # The Name of the package containing the App
+pkg_title = "Earthquake Tracker", # The Title of the package containing the App
+pkg_description = "Earthquake Tracker.", # The Description of the package containing the App
+author_first_name = "Serdar", # Your First Name
+author_last_name = "Korur",  # Your Last Name
+author_email = "serdar.korur@gmail.com",      # Your Email
+repo_url = NULL # The (optional) URL of the GitHub Repo
+)
+usethis::use_test( "app" )
+usethis::use_vignette("mobilequake")
+golem::add_module( name = "map_module" )
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Run the application
+mobilequake::run_app()
+golem::document_and_reload()
+usethis::use_package( "thinkr" )
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Run the application
+mobilequake::run_app()
+library(shinyMobile)
+# Run the application
+mobilequake::run_app()
+leafletOutput()
+?leafletOutput()
+library(shiny)
+# Run the application
+mobilequake::run_app()
+library(leaflet)
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+usethis::use_package( "jsonlite" )
+usethis::use_package( "htmltools" )
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+run_app <- function(...) {
+with_golem_options(
+app = shinyApp(ui = app_ui, server = app_server),
+golem_opts = list(...)
+)
+}
+# Run the application
+mobilequake::run_app()
+gc()
+library(mobilequake)
+library(roxygen2)
+options(golem.app.prod = FALSE)
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+golem::document_and_reload()
+mobilequake::run_app()
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/app_ui.R', echo=TRUE)
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/app_ui.R', echo=TRUE)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/app_ui.R', echo=TRUE)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/app_server.R', echo=TRUE)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+?colorFactor()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/mod_map_module.R', echo=TRUE)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+?addProviderTiles()
+source('~/workingdirectory/CoronaOutbreak/mobilequake/R/mod_map_module.R', echo=TRUE)
+?addProviderTiles()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+library(mobilequake)
+library(mobilequake)
+run_app()
+mobilequake::run_app()
+remove.packages("leaflet")
+mobilequake::run_app()
+install.packages("leaflet")
+golem
+library(golem)
+golem
+packageVersion("golem")
+packageVersion("shinyMobile")
+packageVersion("devtools")
+packageVersion("roxygen2")
+rstudioapi::navigateToFile( "dev/02_dev.R" )
+usethis::use_package( "utils" )
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+remove.packages(leaflet)
+remove.packages('leaflet')
+install.packages("leaflet")
+roxygenize()
+reoxygenize()
+library(roxygen2)
+reoxygenize()
+roxygenize()
+roxygenize()
+roxygenize()
+roxygen2::roxygenize()
+package.dependencies(x, check = FALSE,
+depLevel = c("Depends", "Imports", "Suggests"))
+roxygen2::roxygenize()
+remove.packages(leaflet)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+#' @import shiny
+remove.packages("leaflet")
+install.packages("leaflet")
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+?as.difftime()
+df
+url <- ("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.csv")
+df <- readr::read_csv(url, col_types = readr::cols())
+df
+dt <- as.POSIXlt(Sys.time(), tz = "UTC")
+new.dt <- dt - as.difftime(6, units="hours")
+new.dt
+new.dt <- dt - as.difftime(6, unit="hours")
+new.dt
+testthat(app
+)
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+golem::use_utils_ui()
+golem::add_utils()
+library(golem)
+golem::add_utils()
+golem::add_utils("utils.R")
+golem::add_utils()
+?golem::add_utils()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()
+test_check("mobilequake")
+golem::use_recommended_tests()
+devtools::test()
+# Set options here
+options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+# Detach all loaded packages and clean your environment
+golem::detach_all_attached()
+# rm(list=ls(all.names = TRUE))
+# Document and reload your package
+golem::document_and_reload()
+# Run the application
+mobilequake::run_app()

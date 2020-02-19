@@ -1,0 +1,42 @@
+Package: mobilequake
+Title: Earthquake Tracker
+Version: 0.0.0.9000
+Authors@R: person('Serdar', 'Korur', email = 'serdar.korur@gmail.com', role = c('cre', 'aut'))
+Description: Earthquake Tracker.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    shinyMobile (>= 0.5.0.9000),
+    dplyr,
+    leaflet,
+    echarts4r (>= 0.3.0.9000),
+    shinyscroll (>= 0.0.2),
+    waiter (>= 0.1.0),
+    sever (>= 0.0.1.9000),
+    magrittr,
+    countup,
+    htmlwidgets,
+    leaflet.extras,
+    thinkr,
+    jsonlite,
+    utils,
+    readr
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+Remotes: 
+    RinteRface/shinyMobile,
+    JohnCoene/echarts4r,
+    JohnCoene/shinyscroll,
+    JohnCoene/sever
+VignetteBuilder: knitr
