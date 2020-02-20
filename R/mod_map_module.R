@@ -30,8 +30,8 @@ mod_map_module_ui <- function(id){
       scale = TRUE,
       color = "orange",
       labels = tagList(
-        f7Icon("circle"),
-        f7Icon("circle_fill")
+        shinyMobile::f7Icon("circle", old=FALSE),
+        shinyMobile::f7Icon("circle_fill", old=FALSE)
       )
     ))
 }
