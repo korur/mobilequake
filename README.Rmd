@@ -1,33 +1,26 @@
 ---
 output: github_document
 ---
-**Mobilequake**
+
 
 <p align="center">
-  <img src="inst/app/www/favicon.ico" height="200" width="200" align=left>
+  <img src="inst/app/www/favicon.ico" height="200" width="200" align=center>
 </p>
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-getwd()
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 
-# mobilequake
+
+## mobilequake
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-        mobilequake Earthquake Tracker is a ShinyMobile app under development that tracks earthquakes in real-time.
+Dashboard to track Earthquakes in real-time, based on [USGS data](https://earthquake.usgs.gov/). The app is built with [shinyMobile](https://rinterface.github.io/shinyMobile/) & [echarts4r](https://echarts4r.john-coene.com/) & [leaflet](http://rstudio.github.io/leaflet)
 
-## Installation
 
-  You can install the development version of mobilequake by:
+## Get it
+
+You can download the package and run it locally or deploy it.
 
 ``` r
 # install.packages("remotes")
@@ -38,22 +31,6 @@ remotes::install_github("korur/mobilequake")
 
 
 ```{r example}
-## basic example code
+## Run the app
 mobilequake::run_app()
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
