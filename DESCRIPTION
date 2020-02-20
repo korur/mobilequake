@@ -26,7 +26,8 @@ Imports:
     thinkr,
     jsonlite,
     utils,
-    readr
+    readr,
+    pkgload
 RoxygenNote: 7.0.2
 Suggests: 
     testthat (>= 2.1.0),
