@@ -1,10 +1,15 @@
 ---
 output: github_document
 ---
+**Mobilequake**
 
+<p align="center">
+  <img src="inst/app/www/favicon.ico" height="200" width="200" align=left>
+</p>
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
+getwd()
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -18,23 +23,23 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of mobilequake is to ...
+        mobilequake Earthquake Tracker is a ShinyMobile app under development that tracks earthquakes in real-time.
 
 ## Installation
 
-You can install the released version of mobilequake from [CRAN](https://CRAN.R-project.org) with:
+  You can install the development version of mobilequake by:
 
 ``` r
-install.packages("mobilequake")
+# install.packages("remotes")
+remotes::install_github("korur/mobilequake")
 ```
 
-## Example
+## How to run
 
-This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(mobilequake)
 ## basic example code
+mobilequake::run_app()
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
