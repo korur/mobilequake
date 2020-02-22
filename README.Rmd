@@ -4,7 +4,7 @@ output: github_document
 <div align="center">
 
 <p align="center">
-  <img src="inst/app/www/iphone3photos.jpg"  align=center>
+  <img src="inst/app/www/iphone3photos.png"  align=center>
 </p>
 
 
@@ -22,7 +22,7 @@ Dashboard to track Earthquakes in real-time, based on [USGS data](https://earthq
 </div> 
 ## DEMO 
 
-[Tracker](https://tools.dataatomic.com/shiny/mobilequake) 
+[Tracker](http://tools.dataatomic.com/shiny/mobilequake) 
 
 
 ## Get it

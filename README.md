@@ -25,7 +25,7 @@ data](https://earthquake.usgs.gov/). The app is built with
 
 ## DEMO
 
-[Tracker](https://tools.dataatomic.com/shiny/mobilequake)
+[Tracker](http://tools.dataatomic.com/shiny/mobilequake)
 
 ## Get it
 
