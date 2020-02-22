@@ -3,7 +3,7 @@
 
 <p align="center">
 
-<img src="inst/app/www/iphone3photos.jpg"  align=center>
+<img src="inst/app/www/iphone_mobilequake.png"  align=center>
 
 </p>
 
