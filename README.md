@@ -1,7 +1,9 @@
 
+<div data-align="center">
+
 <p align="center">
 
-<img src="inst/app/www/favicon.ico" height="200" width="200" align=center>
+<img src="inst/app/www/iphone3photos.jpg"  align=center>
 
 </p>
 
@@ -19,6 +21,12 @@ data](https://earthquake.usgs.gov/). The app is built with
 [echarts4r](https://echarts4r.john-coene.com/) &
 [leaflet](http://rstudio.github.io/leaflet)
 
+</div>
+
+## DEMO
+
+[Tracker](https://tools.dataatomic.com/shiny/mobilequake)
+
 ## Get it
 
 You can download the package and run it locally or deploy it.
@@ -34,8 +42,6 @@ remotes::install_github("korur/mobilequake")
 ## Run the app
 mobilequake::run_app()
 ```
-
-    ## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
 
 <!--html_preserve-->
 

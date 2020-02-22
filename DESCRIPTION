@@ -23,7 +23,6 @@ Imports:
     magrittr,
     htmlwidgets,
     leaflet.extras,
-    thinkr,
     jsonlite,
     utils,
     readr,
