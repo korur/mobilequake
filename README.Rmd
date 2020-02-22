@@ -4,7 +4,7 @@ output: github_document
 <div align="center">
 
 <p align="center">
-  <img src="inst/app/www/iphone3photos.png"  align=center>
+  <img src="inst/app/www/iphone_mobilequake.png"  align=center>
 </p>
 
 
