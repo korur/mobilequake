@@ -6,6 +6,7 @@
 #' @import waiter
 #' @import sever
 
+
 url <- ("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.csv")
 quake_df <- readr::read_csv(url, col_types = readr::cols())
 quake_df$size <- cut(quake_df$mag,breaks = c(-Inf, 3.9, 4.9, 5.9, 6.9, 7.9, Inf),
