@@ -5,3 +5,16 @@ mobilequake.Rproj
 .Ruserdata
 .Rprofile
 .Rproj.user/**
+.Rapp.history
+.RData
+.RDataTmp
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+vignettes/*.html
+vignettes/*.pdf
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+/*_files/
