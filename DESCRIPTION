@@ -26,7 +26,8 @@ Imports:
     jsonlite,
     utils,
     readr,
-    pkgload
+    pkgload,
+    sever (>= 0.0.4)
 RoxygenNote: 7.0.2
 Suggests: 
     testthat (>= 2.1.0),
