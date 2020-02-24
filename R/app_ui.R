@@ -20,6 +20,8 @@ loader <- tagList(
 )
 
 app_ui <- function() {
+  version <- paste0("v", packageVersion("mobilequake"))
+  
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
@@ -42,7 +44,19 @@ app_ui <- function() {
           shadow = TRUE,
           left_panel = TRUE,
           right_panel = FALSE
-        ), 
+        ),
+        f7Panel(
+          title = "About", 
+          side = "left", 
+          theme = "dark",
+          effect = "cover",
+          p("Dashboard to track Earthquakes in real-time, based on USGS data. Built with shinyMobile & echarts4r & leaflet & Golem. The code is open-source so you can deploy it yourself."),
+          f7Link(label = "Author", src = "https://dataatomic.com", external = TRUE),
+          f7Link(label = "Code", src = "https://github.com/korur/mobilequake", external = TRUE),
+          f7Link(label = "USGS", src = "https://earthquake.usgs.gov/", external = TRUE),
+          f7Link(label = "Coronavirus Tracker", src = "http://tools.dataatomic.com/shiny/CoronaOutbreak/", external = TRUE)
+        ),
+        
         f7Card(mod_input_module_ui("input_module_ui_1")),
         mod_plots_module_ui("plots_module_ui_1")
       ))
